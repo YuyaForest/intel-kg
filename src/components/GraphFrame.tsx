@@ -41,6 +41,7 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
+  const layoutRef = useRef<any>(null);
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedType, setSelectedType] = useState<string>("ALL");
@@ -98,13 +99,13 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
     return [...cyNodes, ...cyEdges];
   }, [filteredNodes, edges]);
 
-  // Initialize and update Cytoscape instance
+  // Initialize Cytoscape instance once on mount
   useEffect(() => {
     if (!containerRef.current) return;
 
     const cy = cytoscape({
       container: containerRef.current,
-      elements: cyElements,
+      elements: [],
       style: [
         {
           selector: "node",
@@ -204,13 +205,14 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
           },
         },
       ],
-      layout: getLayoutConfig(layoutName),
+      layout: { name: "null" },
     });
 
     cyRef.current = cy;
 
     // Tap node handler
     cy.on("tap", "node", (evt) => {
+      if (cy.destroyed()) return;
       const nodeObj: NormalizedNode = evt.target.data("nodeData");
       onSelectNode(nodeObj);
       setShowDrawer(true);
@@ -231,6 +233,7 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
 
     // Tap background handler
     cy.on("tap", (evt) => {
+      if (cy.destroyed()) return;
       if (evt.target === cy) {
         onSelectNode(null);
         cy.batch(() => {
@@ -241,8 +244,16 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
 
     // Resize observer to fit graph container
     const resizeObserver = new ResizeObserver(() => {
-      if (cyRef.current) {
-        cyRef.current.resize();
+      const cy = cyRef.current;
+      if (cy && !cy.destroyed()) {
+        const container = containerRef.current;
+        if (container && container.clientWidth > 0 && container.clientHeight > 0) {
+          try {
+            cy.resize();
+          } catch {
+            // ignore resize errors if container detached
+          }
+        }
       }
     });
 
@@ -252,26 +263,72 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
 
     return () => {
       resizeObserver.disconnect();
-      cy.destroy();
+      if (layoutRef.current) {
+        try {
+          layoutRef.current.stop();
+        } catch {
+          // ignore layout stop error
+        }
+        layoutRef.current = null;
+      }
+      if (cyRef.current && !cyRef.current.destroyed()) {
+        try {
+          cyRef.current.stop();
+          cyRef.current.removeAllListeners();
+          cyRef.current.destroy();
+        } catch {
+          // ignore cleanup errors on unmount
+        }
+      }
       cyRef.current = null;
     };
+  }, []);
+
+  // Update elements and run layout safely when elements or layout change
+  useEffect(() => {
+    const cy = cyRef.current;
+    if (!cy || cy.destroyed()) return;
+
+    try {
+      if (layoutRef.current) {
+        try {
+          layoutRef.current.stop();
+        } catch {
+          // ignore
+        }
+        layoutRef.current = null;
+      }
+
+      cy.stop();
+      cy.batch(() => {
+        cy.elements().remove();
+        cy.add(cyElements);
+      });
+
+      const layout = cy.layout(getLayoutConfig(layoutName));
+      layoutRef.current = layout;
+      layout.run();
+    } catch (err) {
+      console.warn("Cytoscape update error:", err);
+    }
   }, [cyElements, layoutName]);
 
   // Layout runner configuration
   function getLayoutConfig(name: string) {
     switch (name) {
       case "circle":
-        return { name: "circle", padding: 40 };
+        return { name: "circle", padding: 40, animate: false };
       case "grid":
-        return { name: "grid", padding: 40 };
+        return { name: "grid", padding: 40, animate: false };
       case "concentric":
-        return { name: "concentric", minNodeSpacing: 35, padding: 40 };
+        return { name: "concentric", minNodeSpacing: 35, padding: 40, animate: false };
       case "breadthfirst":
-        return { name: "breadthfirst", directed: true, padding: 40 };
+        return { name: "breadthfirst", directed: true, padding: 40, animate: false };
       case "cose":
       default:
         return {
           name: "cose",
+          animate: false,
           idealEdgeLength: 100,
           nodeOverlap: 25,
           refresh: 20,
@@ -283,7 +340,7 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
           edgeElasticity: 100,
           nestingFactor: 5,
           gravity: 80,
-          numIter: 800,
+          numIter: 400,
           initialTemp: 200,
           coolingFactor: 0.95,
           minTemp: 1.0,
@@ -293,33 +350,50 @@ export const GraphFrame: React.FC<GraphFrameProps> = ({
 
   // Handle re-running layout manually
   const handleRedoLayout = () => {
-    if (cyRef.current) {
-      cyRef.current.layout(getLayoutConfig(layoutName)).run();
+    const cy = cyRef.current;
+    if (cy && !cy.destroyed()) {
+      if (layoutRef.current) {
+        try {
+          layoutRef.current.stop();
+        } catch {
+          // ignore
+        }
+      }
+      cy.stop();
+      const layout = cy.layout(getLayoutConfig(layoutName));
+      layoutRef.current = layout;
+      layout.run();
     }
   };
 
   // Zoom controls
   const handleZoomIn = () => {
-    if (cyRef.current) {
-      cyRef.current.zoom(cyRef.current.zoom() * 1.25);
+    const cy = cyRef.current;
+    if (cy && !cy.destroyed()) {
+      cy.zoom(cy.zoom() * 1.25);
     }
   };
 
   const handleZoomOut = () => {
-    if (cyRef.current) {
-      cyRef.current.zoom(cyRef.current.zoom() * 0.8);
+    const cy = cyRef.current;
+    if (cy && !cy.destroyed()) {
+      cy.zoom(cy.zoom() * 0.8);
     }
   };
 
   const handleFit = () => {
-    if (cyRef.current) {
-      cyRef.current.fit(undefined, 30);
+    const cy = cyRef.current;
+    if (cy && !cy.destroyed()) {
+      cy.fit(undefined, 30);
     }
   };
 
   const handleResetHighlights = () => {
-    if (cyRef.current) {
-      cyRef.current.elements().removeClass("highlighted dimmed");
+    const cy = cyRef.current;
+    if (cy && !cy.destroyed()) {
+      cy.batch(() => {
+        cy.elements().removeClass("highlighted dimmed");
+      });
       onSelectNode(null);
     }
   };
