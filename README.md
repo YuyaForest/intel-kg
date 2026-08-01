@@ -42,10 +42,10 @@
       "type": "node",
       "label": "ThreatActor",
       "properties": {
-        "id": "UNC6201",
-        "name": "UNC6201",
+        "id": "UNC****",
+        "name": "UNC****",
         "motivation": "Cyber Espionage",
-        "nexus": "China"
+        "nexus": "*****"
       }
     }
   ],
@@ -53,8 +53,8 @@
     {
       "type": "edge",
       "label": "USES_MALWARE",
-      "from": "UNC6201",
-      "to": "BRICKSTORM"
+      "from": "UNC****",
+      "to": "**********"
     }
   ]
 }
