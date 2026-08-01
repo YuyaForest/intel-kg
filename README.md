@@ -1,6 +1,4 @@
-# Threat Intelligence Knowledge Graph Explorer (ThreatKG)
-
-**ThreatKG** は、セキュリティナレッジグラフ（`consolidated_kg.json`）の脅威情報エンティティと関係性を直感的に可視化・探索し、Google Search Grounding 機能を搭載した Gemini AI アシスタントを通じてGoogle Cloud Threat Intelligence 等の公式レポートに基づいた分析・解説を提供するセキュリティ分析プラットフォームです。
+搭載した Gemini AI アシスタントを通じてGoogle Cloud Threat Intelligence 等の公式レポートに基づいた分析・解説を提供するセキュリティ分析プラットフォームです。
 
 ---
 
