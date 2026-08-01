@@ -1,0 +1,6 @@
+{
+  "name": "Threat Intelligence Knowledge Graph & Gemini Chat",
+  "description": "Interactive Threat Intelligence Knowledge Graph with grounded Gemini AI Chat assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

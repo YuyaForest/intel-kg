@@ -1,0 +1,2705 @@
+{
+  "nodes": [
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2025-2783",
+        "content": "High-severity sandbox escape in Google Chrome."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2025-61882",
+        "content": "Exploited in large-scale extortion campaigns against Oracle E-Business Suite (EBS) environments."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2025-61884",
+        "content": "Associated with extortion campaigns against Oracle EBS environments."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exploitation of Remote Services",
+        "content": "Record 48% of zero-days targeted enterprise technologies, particularly networking and security appliances (edge devices)."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exploitation for Privilege Escalation",
+        "content": "OS vulnerabilities rose to 44% of all zero-days."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Commercial Surveillance"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Global",
+        "median_dwell_time": "14 days",
+        "internal_detection_rate": "52%",
+        "hand_off_window": "22 seconds"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "High Tech",
+        "target_percentage": "17%",
+        "rank": 1
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Financial",
+        "target_percentage": "14.6%",
+        "rank": 2
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exploits",
+        "usage_percentage": "32%",
+        "trend": "Most common vector for 6th year"
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Voice Phishing",
+        "usage_percentage": "11%",
+        "trend": "Significant surge"
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Prior Compromise",
+        "usage_percentage": "10%",
+        "ransomware_usage_percentage": "30%"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC3944",
+        "targets": "SaaS environments, IT help desks"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6201",
+        "focus": "Extreme persistence, Edge devices"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC5807",
+        "focus": "Edge and core network devices"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "North Korean IT workers",
+        "median_dwell_time": "122 days"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "BRICKSTORM",
+        "type": "Backdoor",
+        "dwell_time": "Nearly 400 days",
+        "content": "Stealthy Linux backdoor targeting vCenter Server Appliance (VCSA) and ESXi hypervisors. Used for long-term persistence and silent data exfiltration via VM cloning."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "REDBIKE",
+        "name": "REDBIKE (Akira)",
+        "type": "Ransomware"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "AGENDA",
+        "name": "AGENDA (Qilin)",
+        "type": "Ransomware"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "PROMPTFLUX",
+        "feature": "AI-integrated evasion"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "PROMPTSTEAL",
+        "feature": "AI-integrated evasion"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "QUIETVAULT",
+        "feature": "Credential stealer targeting AI tools"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "Dell RecoverPoint Zero-Day",
+        "name": "Dell RecoverPoint for Virtual Machines Zero-Day"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "AD CS Misconfiguration",
+        "name": "Active Directory Certificate Services templates misconfiguration"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "id": "TeamPCP",
+        "name": "UNC6780"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "PROMPTSPY"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC1069",
+        "nexus": "North Korea",
+        "motivation": "Cryptocurrency theft"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "WAVESHAPER.V2",
+        "content": "Cross-platform backdoor targeting Windows, macOS, and Linux."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "plain-crypto-js",
+        "content": "Hidden dependency introduced in trojanized axios versions to execute dropper."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Supply Chain Compromise",
+        "content": "Gaining control of axios maintainer's npm account to publish trojanized versions 1.14.1 and 0.30.4."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Cryptocurrency"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "North Korea"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "id": "UNC5814",
+        "name": "UNC5814",
+        "nexus": "China",
+        "motivation": "Financial Gain"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "id": "YY Lai Yu Team",
+        "name": "YY Lai Yu Team",
+        "nexus": "China",
+        "motivation": "Financial Gain"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Darcula",
+        "name": "Darcula",
+        "content": "Chinese-language Phishing-as-a-Service (PhaaS) platform linked to UNC5814 that utilizes Puppeteer and AI-powered page generators to clone legitimate websites."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "YY Lai Yu",
+        "name": "YY Lai Yu",
+        "content": "Chinese-language Phishing-as-a-Service (PhaaS) platform focusing heavily on targeting the Japanese consumer ecosystem across 119 countries."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "id": "Real-Time OTP Interception",
+        "name": "Real-Time OTP Interception",
+        "content": "Interception of one-time passcodes (OTPs) in real-time via live administration panels to bypass multi-factor authentication (MFA)."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "id": "Digital Wallet Provisioning",
+        "name": "Digital Wallet Provisioning",
+        "content": "Exploitation of digital wallet provisioning to monetize stolen payment card details on attacker-controlled devices."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "id": "RCS and iMessage Phishing",
+        "name": "RCS and iMessage Phishing",
+        "content": "Delivery of phishing lures via Rich Communication Services (RCS) and Apple iMessage to bypass carrier-side SMS security filters."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "id": "AI-Based Phishing Automation",
+        "name": "AI-Based Phishing Automation",
+        "content": "Using AI-powered page generators and browser automation tools like Puppeteer to dynamically clone legitimate websites."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "id": "Human Verification Anti-Bot",
+        "name": "Human Verification Anti-Bot",
+        "content": "Using a manual click verification screen prior to the phishing page to hinder automated analysis by security vendors."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "id": "Japan",
+        "name": "Japan"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "id": "China",
+        "name": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "id": "Finance",
+        "name": "Finance"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "id": "E-commerce",
+        "name": "E-commerce"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "id": "Gaming",
+        "name": "Gaming"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "id": "Transportation",
+        "name": "Transportation"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Coruna",
+        "content": "Modular iOS exploit kit with 5 full chains and 23 exploits targeting iOS 13.0-17.2.1. Features PAC bypasses and Lockdown Mode detection."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "PLASMAGRID",
+        "content": "Final payload of Coruna focusing on financial theft, scanning images for QR codes and cryptocurrency recovery phrases."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6353",
+        "nexus": "Russia",
+        "motivation": "Espionage"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6691",
+        "nexus": "China",
+        "motivation": "Financial Fraud"
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Watering Hole Attack",
+        "content": "Compromising legitimate websites (e.g., cdn.uacounter.com) to target specific user groups."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Social Engineering",
+        "content": "Luring victims via fake cryptocurrency and financial websites."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Ukraine"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "DarkSword",
+        "content": "Sophisticated iOS exploit chain leveraging multiple zero-day vulnerabilities targeting iOS 18.4-18.7."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "GHOSTBLADE",
+        "content": "Malware payload deployed via DarkSword, used by UNC6353 in espionage campaigns."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "GHOSTKNIFE",
+        "content": "Malware payload associated with the DarkSword exploit chain."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "GHOSTSABER",
+        "content": "Malware payload associated with the DarkSword exploit chain."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2025-31277",
+        "content": "JavaScriptCore memory corruption vulnerability used in DarkSword exploit chain."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2025-43529",
+        "content": "JavaScriptCore memory corruption vulnerability used in DarkSword exploit chain."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Saudi Arabia"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Turkey"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Malaysia"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Destructive Malware",
+        "content": "Malware designed to render systems inoperable, often including wipers and modified ransomware."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Wiper",
+        "content": "A class of destructive malware that permanently deletes or corrupts data on targeted systems."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Network Segmentation",
+        "content": "Implementing strict isolation between IT and OT environments to prevent lateral movement of destructive attacks."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Multi-factor Authentication (MFA)",
+        "content": "Enforcing MFA to prevent privilege escalation and unauthorized remote access."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Lockdown Mode",
+        "content": "Hardening virtualization hosts (vCenter/ESXi) by disabling unnecessary services like SSH and using restrictive ACLs."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "AI-Driven Vulnerability Discovery",
+        "content": "Using general-purpose AI models to discover software vulnerabilities faster than traditional methods."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "AI-Powered Automation",
+        "content": "Accelerating the discovery-to-exploitation window using AI-driven tools."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "AI-Integrated CI/CD",
+        "content": "Integrating AI models directly into development pipelines to identify and auto-remediate flaws."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Automated Remediation",
+        "content": "Using AI to generate and test security patches at scale."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Behavioral Analytics",
+        "content": "Detecting exploit behavior (e.g., unusual memory access) rather than relying on signatures."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "AI-Powered Triage",
+        "content": "Using AI agents to filter scanner findings and distinguish between theoretical and practical risks."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Sarcoma",
+        "motivation": "Financial / Cyber Extortion"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "SafePay",
+        "motivation": "Financial / Cyber Extortion"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Qilin",
+        "motivation": "Financial / Cyber Extortion"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Germany"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Europe"
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Data Leak Site (DLS) Posting",
+        "content": "Publishing stolen data on dedicated leak sites to pressure victims into paying extortion fees."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC2814",
+        "nexus": "China",
+        "motivation": "Espionage"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "GRIDTIDE",
+        "content": "C-based backdoor masquerading as legitimate Debian tool xapt, abuses Google Sheets API for C2."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Web Service",
+        "content": "Abusing Google Sheets API for command-and-control traffic."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Encrypted Channel",
+        "content": "Using SoftEther VPN Bridge for encrypted outbound connections."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Telecommunications"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Government"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2026-5426",
+        "content": "ViewState deserialization vulnerability in KnowledgeDeliver LMS due to identical pre-shared ASP.NET machine keys, allowing unauthenticated Remote Code Execution (RCE)."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "BLUEBEAM",
+        "content": "In-memory .NET-based web shell (also known as Godzilla) operating within the IIS worker process (w3wp.exe)."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Cobalt Strike BEACON",
+        "content": "Backdoor payload delivered to compromised workstations via fake security installers/plugins."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Deserialization of Untrusted Data",
+        "content": "Leveraging identical pre-shared ASP.NET machine keys to deserialize malicious ViewState payloads and achieve unauthenticated Remote Code Execution."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "File and Directory Permissions Modification",
+        "content": "Using icacls to grant 'Everyone' full access to the web application directory."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Drive-by Compromise",
+        "content": "Tampering with JavaScript files to display fake security alerts and load remote malicious scripts from threat actor-controlled domains."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Education"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6240",
+        "aka": "ShinyHunters",
+        "motivation": "Financial / Extortion"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2026-35273",
+        "content": "Critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component of Oracle PeopleSoft, allowing unauthenticated attackers to execute arbitrary code."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "MeshCentral Agent",
+        "content": "Customized remote administration and C2 agent deployed on Windows/Linux environments, masquerading as Microsoft Azure services."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "ShinyHunters Fanout Script",
+        "content": "Custom shell script ([victim_abbreviation]_fanout.sh) used to automate lateral SSH credential spraying and system defacement."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exploit Public-Facing Application",
+        "content": "Exploitation of CVSS 9.8 zero-day vulnerability (CVE-2026-35273) in Oracle PeopleSoft EMHub endpoints (PSEMHUB) to run arbitrary command queries."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Masquerading",
+        "content": "Naming MeshCentral binaries after legitimate Azure services (e.g. meshagent64-azure-ops.exe) and communicating with C2 domain azurenetfiles.net to mimic Microsoft NetApp Files."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "SSH Credential Spraying",
+        "content": "Performing automated SSH login attempts using a hardcoded list of administrative/application usernames and passwords against internal subnets."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "System Information Discovery",
+        "content": "Mapping network mounts, configurations (psappsrv.cfg, config.xml), and host files to discover targeted database/application endpoints."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Defacement",
+        "content": "Copying extortion and defacement marker files (README-IF-YOU-SEE-THIS-YOUVE-BEEN-HACKED.TXT) across compromised web servers."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Archive Collected Data",
+        "content": "Using zstd tool to compress exfiltrated directories containing stolen data prior to exfiltration."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "United States"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Ransomware",
+        "content": "A type of malicious software designed to block access to a computer system until a sum of money is paid."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Recovery Denial",
+        "content": "Actively targeting backup infrastructure, identity services (Active Directory), and virtualization management planes to prevent system restoration."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Data Theft Extortion",
+        "content": "Stealing sensitive data and threatening to release it unless a ransom is paid (seen in 77% of ransomware intrusions in 2025)."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exploitation of Edge Devices",
+        "content": "Initial access via exploitation of vulnerabilities in VPNs and firewalls."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Virtualization"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2025-55182",
+        "content": "React2Shell: Unauthenticated Remote Code Execution (RCE) in React Server Components (RSC) with CVSS 10.0."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6600",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6586",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6588",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6603",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6595",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Earth Lamia (UNC5454)",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Jackpot Panda",
+        "nexus": "China"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "MINOCAT",
+        "content": "Backdoor used by UNC6600."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "SNOWLIGHT",
+        "content": "Backdoor used by UNC6586."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "COMPOOD",
+        "content": "Backdoor used by UNC6588."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "HISONIC",
+        "content": "Backdoor used by UNC6603."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "ANGRYREBEL.LINUX",
+        "content": "Backdoor used by UNC6595."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "XMRig",
+        "content": "Cryptocurrency miner often deployed following exploitation of RCE vulnerabilities."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "RCE via HTTP request",
+        "content": "Initial access achieved through a single unauthenticated HTTP request to vulnerable RSC endpoints."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Persistence via cron/systemd",
+        "content": "Establishing long-term access by creating cron jobs or systemd services."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Impersonation of SSHD/Vim",
+        "content": "Disguising malicious processes as legitimate system tools like sshd or vim."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "APAC"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Cloud Infrastructure"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "VPS Hosting"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC3753",
+        "aka": "Luna Moth, Chatty Spider, Silent Ransom Group, SRG",
+        "nexus": "Unknown",
+        "motivation": "Financial / Extortion",
+        "description": "Financially motivated threat cluster active since at least March 2022, specializing in data theft extortion-only campaigns using vishing and social engineering."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "AnyDesk",
+        "content": "Commercial remote desktop application abused by UNC3753 for remote access."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Bomgar",
+        "content": "Enterprise remote support application abused by UNC3753 for remote access."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Zoho Assist",
+        "content": "Commercial remote support and access software abused by UNC3753."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "SuperOps RMM agent",
+        "content": "Remote monitoring and management tool abused by UNC3753 for persistence."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "WinSCP",
+        "content": "Free and open-source SFTP, FTP, WebDAV, Amazon S3 and SCP client for Microsoft Windows abused by UNC3753 for data exfiltration."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Rclone",
+        "content": "Command line program to manage files on cloud storage abused by UNC3753 for data exfiltration."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exfiltration Over Physical Medium",
+        "content": "Direct exfiltration of corporate data via removable USB storage media during physical in-person office intrusions."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Remote Access Software",
+        "content": "Abusing legitimate remote monitoring and management (RMM) tools or screen-sharing services to maintain remote control over victim environments."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Legal Services"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Financial Services"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Business and Professional Services"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "USA"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6692",
+        "focus": "Social engineering, custom modular malware, living off the cloud"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "SNOWBELT",
+        "content": "Malicious Chromium extension (MS Heartbeat) for initial foothold, monitoring, and command relay."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "SNOWGLAZE",
+        "content": "Cross-platform WebSocket-based Python tunneler for routing TCP traffic via SOCKS proxy."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "SNOWBASIN",
+        "content": "Persistent Python bindshell acting as a local HTTP server for remote command execution and file management."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC5221",
+        "nexus": "Unknown",
+        "motivation": "Espionage",
+        "focus": "Virtualization infrastructure"
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Virtualization Layer Exploitation",
+        "content": "Operating at the virtualization layer beneath the guest OS to bypass traditional EDR agents."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "VM Cloning for Exfiltration",
+        "content": "Cloning critical VMs (e.g., Domain Controllers) to exfiltrate data (like ntds.dit) by mounting cloned filesystems."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Tier-0 Encryption",
+        "content": "vSphere-native VM encryption as a primary control for critical assets like Domain Controllers."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Zero Trust Networking",
+        "content": "Eliminating lateral movement by isolating management networks and production traffic."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC6508",
+        "nexus": "China",
+        "motivation": "Espionage",
+        "focus": "Academic, medical, and military research community"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "INFINITERED",
+        "name": "INFINITERED",
+        "type": "Backdoor / Credential Harvester / Dropper",
+        "content": "Trojanized REDCap system file, captures credentials and injects itself into upgrade processes."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "help.php",
+        "name": "help.php",
+        "type": "Web Shell",
+        "content": "Web shell maintaining persistence and functioning as an uploader in REDCap."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "REDCap Vulnerabilities",
+        "content": "Vulnerabilities in legacy versions of REDCap (Research Electronic Data Capture) software platform."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Server Software Component: Web Shell",
+        "content": "Deploying help.php or INFINITERED to maintain persistence on compromised servers."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Compromise Client Software Binary",
+        "content": "Modifying REDCap upgrade logic to intercept updates and re-inject malware."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Input Capture: Web Portal Capture",
+        "content": "Harvesting plaintext credentials from Web POST login requests."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Email Collection: Email Forwarding Rule",
+        "content": "Abusing content compliance rules (e.g. Patroit) to silently BCC-forward matched emails."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Medical Research"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Defense Research"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Academic Research"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "North America"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2026-20245",
+        "content": "Command injection vulnerability in Cisco Catalyst SD-WAN Manager allowing root-level access via crafted CSV upload."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2026-20127",
+        "content": "Authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager, chained with CVE-2026-20245."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Vulnerability",
+      "properties": {
+        "id": "CVE-2026-20182",
+        "content": "Authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager, chained with CVE-2026-20245."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Exploit Chaining",
+        "content": "Combining authentication bypass vulnerabilities with command injection for escalation."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Anti-Forensics",
+        "content": "Deleting malicious files, reverting configuration changes, and running scripts to purge intrusion evidence."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Turla",
+        "description": "Russia-linked advanced persistent threat (APT) group also known as Secret Blizzard or Venomous Bear."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "STOCKSTAY",
+        "name": "STOCKSTAY",
+        "type": "Backdoor",
+        "content": "Multi-component .NET backdoor used by Turla."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "STOCKSTAY.MARKETMAKER",
+        "name": "STOCKSTAY.MARKETMAKER",
+        "type": "Downloader",
+        "content": "Downloader and installer component of STOCKSTAY backdoor."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "STOCKSTAY.STOCKBROKER",
+        "name": "STOCKSTAY.STOCKBROKER",
+        "type": "Tunneler",
+        "content": "Proxy-aware network tunneler component of STOCKSTAY using WebSockets."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "STOCKSTAY.STOCKTRADER",
+        "name": "STOCKSTAY.STOCKTRADER",
+        "type": "Backdoor",
+        "content": "Primary backdoor component of STOCKSTAY used for information gathering."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "STOCKSTAY.STOCKMARKET",
+        "name": "STOCKSTAY.STOCKMARKET",
+        "type": "Orchestrator",
+        "content": "Orchestrator component of STOCKSTAY parsing configuration and managing execution intervals."
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Environmental Keying",
+        "content": "Decrypts configuration using victim hostname or domain hashes to prevent analysis."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Region",
+      "properties": {
+        "name": "Italy"
+      }
+    },
+    {
+      "type": "node",
+      "label": "Industry",
+      "properties": {
+        "name": "Military"
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "APT44",
+        "aka": "Sandworm",
+        "nexus": "Russia",
+        "motivation": "Espionage",
+        "description": "GRU-sponsored threat actor heavily involved in cyber espionage, cyber-enabled influence operations, and destructive attacks."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC4057",
+        "aka": "COLDRIVER",
+        "nexus": "Russia",
+        "motivation": "Espionage",
+        "description": "Russian state-sponsored threat group linked to credentials harvesting and hack-and-leak operations."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "NoName057(16)",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Self-proclaimed pro-Russia hacktivist group known for targeting Ukraine and its allies with DDoS attacks."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "UNC5101",
+        "nexus": "Russia",
+        "motivation": "Political / Espionage",
+        "description": "Hybrid cyber espionage and influence actor targeting domestic Russian opposition and election-related entities."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Doppelganger",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Pro-Russia covert influence campaign/actor network supported by multiple Russian contractors."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Secondary Infektion",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Long-running pro-Russia covert influence campaign."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Operation Overload",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Pro-Russia successor information operations campaign."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Portal Kombat",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Pro-Russia covert influence network promoting Russian narratives."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "RaHDit",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Pro-Russia hacktivist group collaborating with multiple threat groups."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "XakNet Team",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "GRU-sponsored hacktivist persona associated with APT44."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Solntsepek",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "APT44-linked threat group and persona used to claim cyber attacks."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "JokerDNR",
+        "nexus": "Russia",
+        "motivation": "Political / Geopolitical",
+        "description": "Pro-Russia hacktivist persona."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "NetNut",
+        "content": "Residential proxy network and botnet, also known as Popa, comprising compromised consumer devices."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "IPIDEA",
+        "content": "Residential proxy network and botnet disrupted by Google and partners in January 2026."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Badbox 2.0",
+        "content": "Large-scale botnet that incorporates NetNut plugin components on compromised Android devices."
+      }
+    },
+    {
+      "type": "node",
+      "label": "Malware",
+      "properties": {
+        "id": "Mirai",
+        "content": "DDoS botnet family commonly deployed on devices compromised via NetNut residential proxies."
+      }
+    },
+    {
+      "type": "node",
+      "label": "ThreatActor",
+      "properties": {
+        "name": "Volt Typhoon",
+        "nexus": "China",
+        "motivation": "Espionage / Pre-positioning on U.S. Critical Infrastructure"
+      }
+    },
+    {
+      "type": "node",
+      "label": "MitreTechnique",
+      "properties": {
+        "name": "Serverless Command Injection",
+        "content": "Exploiting input validation flaws (LFI, RCE) in public-facing serverless functions (GCP Cloud Run / Cloud Functions) to execute OS commands and exfiltrate GCP metadata service account tokens."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "CVE-2025-2783"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "CVE-2025-61882"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "CVE-2025-61884"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "Commercial Surveillance",
+      "to": "Global"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS",
+      "from": "Global",
+      "to": "High Tech"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS",
+      "from": "Global",
+      "to": "Financial"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "Exploits"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "Voice Phishing"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC3944",
+      "to": "Voice Phishing"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS",
+      "from": "UNC6201",
+      "to": "Dell RecoverPoint Zero-Day"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "UNC6201",
+      "to": "BRICKSTORM"
+    },
+    {
+      "type": "edge",
+      "label": "USES",
+      "from": "REDBIKE",
+      "to": "AD CS Misconfiguration"
+    },
+    {
+      "type": "edge",
+      "label": "USES",
+      "from": "AGENDA",
+      "to": "AD CS Misconfiguration"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "PROMPTFLUX",
+      "to": "Global"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "QUIETVAULT",
+      "to": "Global"
+    },
+    {
+      "type": "edge",
+      "label": "USES",
+      "from": "Global",
+      "to": "PROMPTFLUX"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS",
+      "from": "Global",
+      "to": "Government"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC1069",
+      "to": "WAVESHAPER.V2"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC1069",
+      "to": "plain-crypto-js"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC1069",
+      "to": "Supply Chain Compromise"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "plain-crypto-js",
+      "to": "WAVESHAPER.V2"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC1069",
+      "to": "Cryptocurrency"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "UNC1069",
+      "to": "North Korea"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC5814",
+      "to": "Darcula"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "YY Lai Yu Team",
+      "to": "YY Lai Yu"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Darcula",
+      "to": "AI-Based Phishing Automation"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "YY Lai Yu",
+      "to": "Real-Time OTP Interception"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "YY Lai Yu",
+      "to": "Digital Wallet Provisioning"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "YY Lai Yu",
+      "to": "RCS and iMessage Phishing"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "YY Lai Yu",
+      "to": "Human Verification Anti-Bot"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "YY Lai Yu",
+      "to": "Japan"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "YY Lai Yu",
+      "to": "Finance"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "YY Lai Yu",
+      "to": "E-commerce"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "YY Lai Yu",
+      "to": "Gaming"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "YY Lai Yu",
+      "to": "Transportation"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6353",
+      "to": "Coruna"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6691",
+      "to": "Coruna"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "Coruna",
+      "to": "PLASMAGRID"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6353",
+      "to": "Watering Hole Attack"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6691",
+      "to": "Social Engineering"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "UNC6353",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC6691",
+      "to": "Cryptocurrency"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC6691",
+      "to": "Finance"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6353",
+      "to": "DarkSword"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "DarkSword",
+      "to": "GHOSTBLADE"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "DarkSword",
+      "to": "GHOSTKNIFE"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "DarkSword",
+      "to": "GHOSTSABER"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "DarkSword",
+      "to": "CVE-2025-31277"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "DarkSword",
+      "to": "CVE-2025-43529"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "DarkSword",
+      "to": "Saudi Arabia"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "DarkSword",
+      "to": "Turkey"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "DarkSword",
+      "to": "Malaysia"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "DarkSword",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "Global",
+      "to": "Destructive Malware"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "Global",
+      "to": "Wiper"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Destructive Malware",
+      "to": "Network Segmentation"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Destructive Malware",
+      "to": "Multi-factor Authentication (MFA)"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "Destructive Malware",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "AI-Driven Vulnerability Discovery"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "AI-Powered Automation"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "AI-Integrated CI/CD"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "Behavioral Analytics"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "AI-Powered Triage"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Sarcoma",
+      "to": "Germany"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "SafePay",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Qilin",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Sarcoma",
+      "to": "Data Leak Site (DLS) Posting"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "SafePay",
+      "to": "Data Leak Site (DLS) Posting"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Qilin",
+      "to": "Data Leak Site (DLS) Posting"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "Germany",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC2814",
+      "to": "GRIDTIDE"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "GRIDTIDE",
+      "to": "Web Service"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "GRIDTIDE",
+      "to": "Encrypted Channel"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC2814",
+      "to": "Telecommunications"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC2814",
+      "to": "Government"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "UNC2814",
+      "to": "Global"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "BLUEBEAM",
+      "to": "CVE-2026-5426"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "CVE-2026-5426",
+      "to": "Deserialization of Untrusted Data"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "BLUEBEAM",
+      "to": "File and Directory Permissions Modification"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "BLUEBEAM",
+      "to": "Drive-by Compromise"
+    },
+    {
+      "type": "edge",
+      "label": "DELIVERS_MALWARE",
+      "from": "BLUEBEAM",
+      "to": "Cobalt Strike BEACON"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "CVE-2026-5426",
+      "to": "Japan"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "CVE-2026-5426",
+      "to": "Education"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "UNC6240",
+      "to": "CVE-2026-35273"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6240",
+      "to": "MeshCentral Agent"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6240",
+      "to": "ShinyHunters Fanout Script"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6240",
+      "to": "Exploit Public-Facing Application"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6240",
+      "to": "Masquerading"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "ShinyHunters Fanout Script",
+      "to": "SSH Credential Spraying"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6240",
+      "to": "System Information Discovery"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "ShinyHunters Fanout Script",
+      "to": "Defacement"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6240",
+      "to": "Archive Collected Data"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC6240",
+      "to": "Education"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "UNC6240",
+      "to": "United States"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Ransomware",
+      "to": "Recovery Denial"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Ransomware",
+      "to": "Data Theft Extortion"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Ransomware",
+      "to": "Exploitation of Edge Devices"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "Ransomware",
+      "to": "Virtualization"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "UNC6600",
+      "to": "CVE-2025-55182"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Earth Lamia (UNC5454)",
+      "to": "CVE-2025-55182"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Jackpot Panda",
+      "to": "CVE-2025-55182"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6600",
+      "to": "MINOCAT"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6586",
+      "to": "SNOWLIGHT"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6588",
+      "to": "COMPOOD"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6603",
+      "to": "HISONIC"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6595",
+      "to": "ANGRYREBEL.LINUX"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6600",
+      "to": "RCE via HTTP request"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6600",
+      "to": "Persistence via cron/systemd"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS",
+      "from": "UNC6600",
+      "to": "Cloud Infrastructure"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS",
+      "from": "UNC6600",
+      "to": "VPS Hosting"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "CVE-2025-55182",
+      "to": "APAC"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC3753",
+      "to": "Remote Access Software"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC3753",
+      "to": "Exfiltration Over Physical Medium"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC3753",
+      "to": "Data Theft Extortion"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC3753",
+      "to": "AnyDesk"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC3753",
+      "to": "Bomgar"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC3753",
+      "to": "Zoho Assist"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC3753",
+      "to": "SuperOps RMM agent"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC3753",
+      "to": "WinSCP"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC3753",
+      "to": "Rclone"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC3753",
+      "to": "Legal Services"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC3753",
+      "to": "Financial Services"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC3753",
+      "to": "Business and Professional Services"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "UNC3753",
+      "to": "USA"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6692",
+      "to": "SNOWBELT"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6692",
+      "to": "SNOWGLAZE"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6692",
+      "to": "SNOWBASIN"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC5221",
+      "to": "BRICKSTORM"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "BRICKSTORM",
+      "to": "Virtualization Layer Exploitation"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "BRICKSTORM",
+      "to": "VM Cloning for Exfiltration"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "Tier-0 Encryption"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Global",
+      "to": "Zero Trust Networking"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "UNC6508",
+      "to": "China"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "UNC6508",
+      "to": "North America"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC6508",
+      "to": "Medical Research"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC6508",
+      "to": "Defense Research"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "UNC6508",
+      "to": "Academic Research"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6508",
+      "to": "INFINITERED"
+    },
+    {
+      "type": "edge",
+      "label": "USES_MALWARE",
+      "from": "UNC6508",
+      "to": "help.php"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "UNC6508",
+      "to": "REDCap Vulnerabilities"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6508",
+      "to": "Exploit Public-Facing Application"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6508",
+      "to": "Server Software Component: Web Shell"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6508",
+      "to": "Compromise Client Software Binary"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6508",
+      "to": "Input Capture: Web Portal Capture"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "UNC6508",
+      "to": "Email Collection: Email Forwarding Rule"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "CVE-2026-20245"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "CVE-2026-20127"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "CVE-2026-20182"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "CVE-2026-20245",
+      "to": "CVE-2026-20127"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "CVE-2026-20245",
+      "to": "CVE-2026-20182"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "CVE-2026-20245",
+      "to": "Exploit Chaining"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "CVE-2026-20245",
+      "to": "Anti-Forensics"
+    },
+    {
+      "type": "edge",
+      "label": "DEPLOYS",
+      "from": "Turla",
+      "to": "STOCKSTAY"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Turla",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Turla",
+      "to": "Italy"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "Turla",
+      "to": "Government"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_INDUSTRY",
+      "from": "Turla",
+      "to": "Military"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "STOCKSTAY",
+      "to": "STOCKSTAY.MARKETMAKER"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "STOCKSTAY",
+      "to": "STOCKSTAY.STOCKBROKER"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "STOCKSTAY",
+      "to": "STOCKSTAY.STOCKTRADER"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "STOCKSTAY",
+      "to": "STOCKSTAY.STOCKMARKET"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "STOCKSTAY",
+      "to": "Environmental Keying"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "STOCKSTAY",
+      "to": "Masquerading"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "APT44",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "APT44",
+      "to": "United States"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "APT44",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "XakNet Team",
+      "to": "APT44"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "Solntsepek",
+      "to": "APT44"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "JokerDNR",
+      "to": "Solntsepek"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "NoName057(16)",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "NoName057(16)",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Secondary Infektion",
+      "to": "Ukraine"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Doppelganger",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Doppelganger",
+      "to": "United States"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Operation Overload",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Portal Kombat",
+      "to": "Europe"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "Badbox 2.0",
+      "to": "NetNut"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "Mirai",
+      "to": "NetNut"
+    },
+    {
+      "type": "edge",
+      "label": "ASSOCIATED_WITH",
+      "from": "IPIDEA",
+      "to": "NetNut"
+    },
+    {
+      "type": "edge",
+      "label": "USES_TECHNIQUE",
+      "from": "Volt Typhoon",
+      "to": "Exploit Public-Facing Application"
+    },
+    {
+      "type": "edge",
+      "label": "TARGETS_REGION",
+      "from": "Volt Typhoon",
+      "to": "United States"
+    },
+    {
+      "type": "edge",
+      "label": "EXPLOITS_VULN",
+      "from": "Global",
+      "to": "Serverless Command Injection"
+    }
+  ]
+}
