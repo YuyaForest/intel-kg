@@ -1,3 +1,4 @@
+# Knowledge Graph of Cyber Angel
 搭載した Gemini AI アシスタントを通じてGoogle Cloud Threat Intelligence 等の公式レポートに基づいた分析・解説を提供するセキュリティ分析プラットフォームです。
 
 ---
