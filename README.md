@@ -91,4 +91,4 @@ npm start
 このアプリケーションは、上位プロジェクトCyber Angel のナレッジグラフ部分のみを切り出したデモアプリデーションです。
 上位プロジェクトは非公開になっており、他の環境で実行しています。
 プロジェクトのイメージ図は次のpdfを参照してください。
-assets/Cyber_Angel.pdf
+[Cyber_Angel.pdf](https://github.com/YuyaForest/intel-kg/assets/Cyber_Angel.pdf)
